@@ -1,0 +1,24 @@
+{
+  "name": "wpp-automatico",
+  "version": "1.0.0",
+  "description": "Envio de mensagens automáticas pelo WhatsApp",
+  "main": "index.js",
+  "scripts": {
+    "message1": "node index1.js",
+    "message2": "node index2.js",
+    "message3": "node index3.js",
+    "message4": "node index4.js",
+    "message5": "node index5.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "exceljs": "^4.4.0",
+    "node-cron": "^3.0.3",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.25.0"
+  }
+}
